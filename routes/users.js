@@ -8,14 +8,6 @@ const passport=require('passport');
 /* GET users listing.*/
 
 
-const arr={
-     CourseName:"Java",
-     CoursePrice:4000
-   }
-    const obj=new Course(arr);
-    obj.save();
-    console.log("ho gya");
-  }
 
 router.get('/',async (req,res,next)=>{
 //const obj=await Programme.findById("60dc338ab1d1931030485685");
